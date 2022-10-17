@@ -1,5 +1,5 @@
 <h1 align="center"> 
-    ✨ AellyUBot ✨ 
+    ✨ AellyOUBot ✨ 
 </h1>
 
 <h3 align="center"> 
