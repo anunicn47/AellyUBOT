@@ -30,7 +30,7 @@ from gtts import gTTS
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import app
+from aelly import app
 
 
 def convert(text):

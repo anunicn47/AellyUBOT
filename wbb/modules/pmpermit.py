@@ -25,9 +25,9 @@ SOFTWARE.
 from pyrogram import filters
 from pyrogram.raw.functions.messages import DeleteHistory
 
-from wbb import BOT_ID, PM_PERMIT, SUDOERS, USERBOT_ID, USERBOT_PREFIX, app, app2, eor
-from wbb.core.decorators.errors import capture_err
-from wbb.utils.dbfunctions import (
+from aelly import BOT_ID, PM_PERMIT, SUDOERS, USERBOT_ID, USERBOT_PREFIX, app, app2, eor
+from aelly.core.decorators.errors import capture_err
+from aelly.utils.dbfunctions import (
     approve_pmpermit,
     disapprove_pmpermit,
     is_pmpermit_approved,

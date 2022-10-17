@@ -31,11 +31,11 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Chat, Message
 
-from wbb import LOG_GROUP_ID, SUDOERS, USERBOT_ID, USERBOT_PREFIX
-from wbb import aiohttpsession as session
-from wbb import app, app2
-from wbb.modules.userbot import eor
-from wbb.utils.functions import extract_user
+from aelly import LOG_GROUP_ID, SUDOERS, USERBOT_ID, USERBOT_PREFIX
+from aelly import aiohttpsession as session
+from aelly import app, app2
+from aelly.modules.userbot import eor
+from aelly.utils.functions import extract_user
 
 
 @app2.on_message(

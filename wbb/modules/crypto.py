@@ -1,10 +1,10 @@
 from pyrogram import filters
 
-from wbb import app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.keyboard import ikb
-from wbb.core.sections import section
-from wbb.utils.http import get
+from aelly import app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.keyboard import ikb
+from aelly.core.sections import section
+from aelly.utils.http import get
 
 __MODULE__ = "Crypto"
 __HELP__ = """

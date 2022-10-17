@@ -26,7 +26,7 @@ from asyncio import gather, sleep
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import (
+from aelly import (
     BOT_ID,
     SUDOERS,
     USERBOT_ID,
@@ -37,9 +37,9 @@ from wbb import (
     arq,
     eor,
 )
-from wbb.core.decorators.errors import capture_err
-from wbb.utils.filter_groups import chatbot_group
-from wbb.utils.dbfunctions import check_chatbot, add_chatbot, rm_chatbot
+from aelly.core.decorators.errors import capture_err
+from aelly.utils.filter_groups import chatbot_group
+from aelly.utils.dbfunctions import check_chatbot, add_chatbot, rm_chatbot
 
 __MODULE__ = "ChatBot"
 __HELP__ = """

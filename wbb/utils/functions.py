@@ -36,15 +36,15 @@ import speedtest
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from pyrogram.types import Message
 
-from wbb import aiohttpsession as aiosession
-from wbb.utils.dbfunctions import start_restart_stage
-from wbb.utils.http import get, post
+from aelly import aiohttpsession as aiosession
+from aelly.utils.dbfunctions import start_restart_stage
+from aelly.utils.http import get, post
 
 
 async def restart(m: Message):
     if m:
         await start_restart_stage(m.chat.id, m.message_id)
-    execvp(executable, [executable, "-m", "wbb"])
+    execvp(executable, [executable, "-m", "aelly"])
 
 
 def generate_captcha():

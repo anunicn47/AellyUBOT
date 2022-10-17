@@ -30,10 +30,10 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import SUDOERS, USERBOT_PREFIX, app2, eor
-from wbb.core.sections import section
-from wbb.core.tasks import add_task, rm_task
-from wbb.utils.downloader import download
+from aelly import SUDOERS, USERBOT_PREFIX, app2, eor
+from aelly.core.sections import section
+from aelly.core.tasks import add_task, rm_task
+from aelly.utils.downloader import download
 
 
 @app2.on_message(

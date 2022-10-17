@@ -32,10 +32,10 @@ from pyrogram import filters
 from pytube import YouTube
 from requests import get
 
-from wbb import aiohttpsession as session
-from wbb import app, arq
-from wbb.core.decorators.errors import capture_err
-from wbb.utils.pastebin import paste
+from aelly import aiohttpsession as session
+from aelly import app, arq
+from aelly.core.decorators.errors import capture_err
+from aelly.utils.pastebin import paste
 
 __MODULE__ = "Music"
 __HELP__ = """

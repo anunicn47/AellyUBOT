@@ -30,7 +30,7 @@ from uvloop import install
 from pyrogram import filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from wbb import (
+from aelly import (
     BOT_NAME,
     BOT_USERNAME,
     LOG_GROUP_ID,
@@ -39,11 +39,11 @@ from wbb import (
     app,
     log,
 )
-from wbb.modules import ALL_MODULES
-from wbb.modules.sudoers import bot_sys_stats
-from wbb.utils import paginate_modules
-from wbb.utils.constants import MARKDOWN
-from wbb.utils.dbfunctions import clean_restart_stage
+from aelly.modules import ALL_MODULES
+from aelly.modules.sudoers import bot_sys_stats
+from aelly.utils import paginate_modules
+from aelly.utils.constants import MARKDOWN
+from aelly.utils.dbfunctions import clean_restart_stage
 
 loop = asyncio.get_event_loop()
 
@@ -54,7 +54,7 @@ async def start_bot():
     global HELPABLE
 
     for module in ALL_MODULES:
-        imported_module = importlib.import_module("wbb.modules." + module)
+        imported_module = importlib.import_module("aelly.modules." + module)
         if (
                 hasattr(imported_module, "__MODULE__")
                 and imported_module.__MODULE__

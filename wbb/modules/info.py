@@ -26,9 +26,9 @@ import os
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import SUDOERS, app
-from wbb.core.sections import section
-from wbb.utils.dbfunctions import is_gbanned_user, user_global_karma
+from aelly import SUDOERS, app
+from aelly.core.sections import section
+from aelly.utils.dbfunctions import is_gbanned_user, user_global_karma
 
 __MODULE__ = "Info"
 __HELP__ = """

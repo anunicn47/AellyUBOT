@@ -53,7 +53,7 @@ bot_start_time = time.time()
 
 
 class Log:
-    def __init__(self, save_to_file=False, file_name="wbb.log"):
+    def __init__(self, save_to_file=False, file_name="aelly.log"):
         self.save_to_file = save_to_file
         self.file_name = file_name
 
@@ -75,7 +75,7 @@ log = Log(True, "bot.log")
 # MongoDB client
 log.info("Initializing MongoDB client")
 mongo_client = MongoClient(MONGO_URL)
-db = mongo_client.wbb
+db = mongo_client.aelly
 
 
 async def load_sudoers():
@@ -115,7 +115,7 @@ aiohttpsession = ClientSession()
 
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
-app = Client("wbb", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
+app = Client("aelly", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
 
 log.info("Starting bot client")
 app.start()

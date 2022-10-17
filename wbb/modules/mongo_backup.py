@@ -27,7 +27,7 @@ from os import system as execute
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import MONGO_URL, SUDOERS, app
+from aelly import MONGO_URL, SUDOERS, app
 
 
 @app.on_message(filters.command("backup") & SUDOERS & ~filters.edited)

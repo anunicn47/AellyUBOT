@@ -41,11 +41,11 @@ from pyrogram.types import (
     User,
 )
 
-from wbb import SUDOERS, WELCOME_DELAY_KICK_SEC, app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.decorators.permissions import adminsOnly
-from wbb.core.keyboard import ikb
-from wbb.utils.dbfunctions import (
+from aelly import SUDOERS, WELCOME_DELAY_KICK_SEC, app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.decorators.permissions import adminsOnly
+from aelly.core.keyboard import ikb
+from aelly.utils.dbfunctions import (
     captcha_off,
     captcha_on,
     del_welcome,
@@ -58,8 +58,8 @@ from wbb.utils.dbfunctions import (
     set_welcome,
     update_captcha_cache,
 )
-from wbb.utils.filter_groups import welcome_captcha_group
-from wbb.utils.functions import extract_text_and_keyb, generate_captcha
+from aelly.utils.filter_groups import welcome_captcha_group
+from aelly.utils.functions import extract_text_and_keyb, generate_captcha
 
 __MODULE__ = "Greetings"
 __HELP__ = """

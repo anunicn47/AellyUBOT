@@ -30,9 +30,9 @@ from PIL import Image
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.sections import section
+from aelly import app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.sections import section
 
 
 async def convert(
@@ -61,7 +61,7 @@ async def convert(
         img.save(img_path, "JPEG", quality=100)
 
     pdf = BytesIO(img2pdf.convert(documents))
-    pdf.name = "wbb.pdf"
+    pdf.name = "aelly.pdf"
 
     if len(main_message.command) >= 2:
         names = main_message.text.split(None, 1)[1]

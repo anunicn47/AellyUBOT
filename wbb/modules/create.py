@@ -24,8 +24,8 @@ SOFTWARE.
 
 from pyrogram import filters
 
-from wbb import BOT_USERNAME, SUDOERS, USERBOT_PREFIX, app2
-from wbb.modules.userbot import eor
+from aelly import BOT_USERNAME, SUDOERS, USERBOT_PREFIX, app2
+from aelly.modules.userbot import eor
 
 
 @app2.on_message(

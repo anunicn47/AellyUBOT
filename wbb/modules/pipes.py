@@ -26,8 +26,8 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import BOT_ID, SUDOERS, USERBOT_ID, app, app2
-from wbb.core.decorators.errors import capture_err
+from aelly import BOT_ID, SUDOERS, USERBOT_ID, app, app2
+from aelly.core.decorators.errors import capture_err
 
 __MODULE__ = "Pipes"
 __HELP__ = """

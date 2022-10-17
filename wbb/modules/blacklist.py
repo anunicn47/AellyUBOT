@@ -27,16 +27,16 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import ChatPermissions
 
-from wbb import SUDOERS, app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.decorators.permissions import adminsOnly
-from wbb.modules.admin import list_admins
-from wbb.utils.dbfunctions import (
+from aelly import SUDOERS, app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.decorators.permissions import adminsOnly
+from aelly.modules.admin import list_admins
+from aelly.utils.dbfunctions import (
     delete_blacklist_filter,
     get_blacklisted_words,
     save_blacklist_filter,
 )
-from wbb.utils.filter_groups import blacklist_filters_group
+from aelly.utils.filter_groups import blacklist_filters_group
 
 __MODULE__ = "Blacklist"
 __HELP__ = """

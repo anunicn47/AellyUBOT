@@ -25,11 +25,11 @@ import re
 
 from pyrogram import filters
 
-from wbb import app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.decorators.permissions import adminsOnly
-from wbb.core.sections import section
-from wbb.utils.dbfunctions import (
+from aelly import app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.decorators.permissions import adminsOnly
+from aelly.core.sections import section
+from aelly.utils.dbfunctions import (
     alpha_to_int,
     get_karma,
     get_karmas,
@@ -39,8 +39,8 @@ from wbb.utils.dbfunctions import (
     karma_on,
     update_karma,
 )
-from wbb.utils.filter_groups import karma_negative_group, karma_positive_group
-from wbb.utils.functions import get_user_id_and_usernames
+from aelly.utils.filter_groups import karma_negative_group, karma_positive_group
+from aelly.utils.functions import get_user_id_and_usernames
 
 __MODULE__ = "Karma"
 __HELP__ = """[UPVOTE] - Use upvote keywords like "+", "+1", "thanks", etc to upvote a message.

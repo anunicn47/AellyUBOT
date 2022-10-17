@@ -1,8 +1,8 @@
 import asyncio
-from wbb import app
+from aelly import app
 from pyrogram import filters
 from pyrogram.types import Message
-from wbb.utils import http
+from aelly.utils import http
 
 
 # For /help menu

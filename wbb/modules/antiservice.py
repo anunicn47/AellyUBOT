@@ -3,9 +3,9 @@
 
 from pyrogram import filters
 
-from wbb import app
-from wbb.core.decorators.permissions import adminsOnly
-from wbb.utils.dbfunctions import (
+from aelly import app
+from aelly.core.decorators.permissions import adminsOnly
+from aelly.utils.dbfunctions import (
     antiservice_off,
     antiservice_on,
     is_antiservice_on,

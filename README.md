@@ -29,7 +29,7 @@
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
     <a href="https://t.me/WilliamButcherBot"> WilliamButcherBot </a> | 
-    <a href="https://t.me/wbbsupport"> WbbSupport </a>
+    <a href="https://t.me/aellysupport"> WbbSupport </a>
 </p>
 
 <h2 align="center"> 
@@ -63,7 +63,7 @@ AellyOfficial@arch:~$ cp sample_config.py config.py
 </h2>
 
 ```console
-AellyOfficial@arch:~$ python3 -m wbb
+AellyOfficial@arch:~$ python3 -m aelly
 ```
 
 <h3 align="center"> 
@@ -92,8 +92,8 @@ AellyOfficial@arch:~$ cp sample_config.env config.env
 </h3>
 
 ```console
-AellyOfficial@arch:~$ sudo docker build . -t wbb
-AellyOfficial@arch:~$ sudo docker run wbb
+AellyOfficial@arch:~$ sudo docker build . -t aelly
+AellyOfficial@arch:~$ sudo docker run aelly
 ```
 
 <h2 align="center"> 
@@ -103,8 +103,8 @@ AellyOfficial@arch:~$ sudo docker run wbb
 ```py
 # Add license text here, get it from below
 
-from wbb import app # This is bot's client
-from wbb import app2 # userbot client, import it if module is related to userbot
+from aelly import app # This is bot's client
+from aelly import app2 # userbot client, import it if module is related to userbot
 from pyrogram import filters # pyrogram filters
 ...
 
@@ -118,9 +118,9 @@ __HELP__ = "Module help message"
 async def some_function(_, message):
     await message.reply_text("I'm already up!!")
 
-# Many useful functions are in, wbb/utils/, wbb, and wbb/core/
+# Many useful functions are in, aelly/utils/, aelly, and aelly/core/
 ```
 
 <h3 align="center"> 
-   And put that file in wbb/modules/, restart and test your bot.
+   And put that file in aelly/modules/, restart and test your bot.
 </h3>

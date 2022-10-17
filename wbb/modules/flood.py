@@ -33,12 +33,12 @@ from pyrogram.types import (
     Message,
 )
 
-from wbb import SUDOERS, app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.decorators.permissions import adminsOnly
-from wbb.modules.admin import list_admins, member_permissions
-from wbb.utils.dbfunctions import flood_off, flood_on, is_flood_on
-from wbb.utils.filter_groups import flood_group
+from aelly import SUDOERS, app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.decorators.permissions import adminsOnly
+from aelly.modules.admin import list_admins, member_permissions
+from aelly.utils.dbfunctions import flood_off, flood_on, is_flood_on
+from aelly.utils.filter_groups import flood_group
 
 __MODULE__ = "Flood"
 __HELP__ = """

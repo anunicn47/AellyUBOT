@@ -25,8 +25,8 @@ SOFTWARE.
 
 import traceback
 
-from wbb import app
-from wbb.utils.inlinefuncs import *
+from aelly import app
+from aelly.utils.inlinefuncs import *
 
 __MODULE__ = "Inline"
 __HELP__ = """See inline for help related to inline"""

@@ -28,10 +28,10 @@ import aiofiles
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import SUDOERS, USERBOT_PREFIX, app, app2, eor
-from wbb.core.decorators.errors import capture_err
-from wbb.core.keyboard import ikb
-from wbb.utils.pastebin import paste
+from aelly import SUDOERS, USERBOT_PREFIX, app, app2, eor
+from aelly.core.decorators.errors import capture_err
+from aelly.core.keyboard import ikb
+from aelly.utils.pastebin import paste
 
 __MODULE__ = "Paste"
 __HELP__ = "/paste - To Paste Replied Text Or Document To A Pastebin"

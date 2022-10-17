@@ -35,17 +35,17 @@ from pyrogram.types import (
     Message,
 )
 
-from wbb import BOT_ID, SUDOERS, app, log
-from wbb.core.decorators.errors import capture_err
-from wbb.core.keyboard import ikb
-from wbb.utils.dbfunctions import (
+from aelly import BOT_ID, SUDOERS, app, log
+from aelly.core.decorators.errors import capture_err
+from aelly.core.keyboard import ikb
+from aelly.utils.dbfunctions import (
     add_warn,
     get_warn,
     int_to_alpha,
     remove_warns,
     save_filter,
 )
-from wbb.utils.functions import (
+from aelly.utils.functions import (
     extract_user,
     extract_user_and_reason,
     time_converter,
@@ -106,7 +106,7 @@ async def member_permissions(chat_id: int, user_id: int):
     return perms
 
 
-from wbb.core.decorators.permissions import adminsOnly
+from aelly.core.decorators.permissions import adminsOnly
 
 admins_in_chat = {}
 

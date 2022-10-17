@@ -25,11 +25,11 @@ from pyrogram import filters
 from pyrogram.errors.exceptions.bad_request_400 import ChatNotModified
 from pyrogram.types import ChatPermissions
 
-from wbb import SUDOERS, app
-from wbb.core.decorators.errors import capture_err
-from wbb.core.decorators.permissions import adminsOnly
-from wbb.modules.admin import list_admins
-from wbb.utils.functions import get_urls_from_text
+from aelly import SUDOERS, app
+from aelly.core.decorators.errors import capture_err
+from aelly.core.decorators.permissions import adminsOnly
+from aelly.modules.admin import list_admins
+from aelly.utils.functions import get_urls_from_text
 
 __MODULE__ = "Locks"
 __HELP__ = """

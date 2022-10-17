@@ -28,9 +28,9 @@ from io import BytesIO
 from pyrogram import filters
 from pyrogram.types import Message
 
-from wbb import SUDOERS, USERBOT_PREFIX, app, app2, eor
-from wbb.core.decorators.errors import capture_err
-from wbb.utils.http import post
+from aelly import SUDOERS, USERBOT_PREFIX, app, app2, eor
+from aelly.core.decorators.errors import capture_err
+from aelly.utils.http import post
 
 
 async def take_screenshot(url: str, full: bool = False):

@@ -23,8 +23,8 @@ SOFTWARE.
 """
 from pyrogram import filters
 
-from wbb import app, arq
-from wbb.core.sections import section
+from aelly import app, arq
+from aelly.core.sections import section
 
 
 @app.on_message(

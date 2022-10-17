@@ -30,7 +30,7 @@ import psutil
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 
-from wbb import (
+from aelly import (
     BOT_ID,
     GBAN_LOG_GROUP_ID,
     SUDOERS,
@@ -38,15 +38,15 @@ from wbb import (
     app,
     bot_start_time,
 )
-from wbb.core.decorators.errors import capture_err
-from wbb.utils import formatter
-from wbb.utils.dbfunctions import (
+from aelly.core.decorators.errors import capture_err
+from aelly.utils import formatter
+from aelly.utils.dbfunctions import (
     add_gban_user,
     get_served_chats,
     is_gbanned_user,
     remove_gban_user,
 )
-from wbb.utils.functions import extract_user, extract_user_and_reason, restart
+from aelly.utils.functions import extract_user, extract_user_and_reason, restart
 
 __MODULE__ = "Sudoers"
 __HELP__ = """

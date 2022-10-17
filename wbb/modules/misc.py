@@ -30,12 +30,12 @@ from re import findall
 
 from pyrogram import filters
 
-from wbb import SUDOERS, USERBOT_PREFIX, app, app2, arq, eor
-from wbb.core.decorators.errors import capture_err
-from wbb.utils import random_line
-from wbb.utils.http import get
-from wbb.utils.json_prettify import json_prettify
-from wbb.utils.pastebin import paste
+from aelly import SUDOERS, USERBOT_PREFIX, app, app2, arq, eor
+from aelly.core.decorators.errors import capture_err
+from aelly.utils import random_line
+from aelly.utils.http import get
+from aelly.utils.json_prettify import json_prettify
+from aelly.utils.pastebin import paste
 
 __MODULE__ = "Misc"
 __HELP__ = """
@@ -173,7 +173,7 @@ async def rtfm(_, message):
 
 @app.on_message(filters.command("runs") & ~filters.edited)
 async def runs(_, message):
-    await message.reply_text((await random_line("wbb/utils/runs.txt")))
+    await message.reply_text((await random_line("aelly/utils/runs.txt")))
 
 
 @app2.on_message(filters.command("id", prefixes=USERBOT_PREFIX) & SUDOERS)
