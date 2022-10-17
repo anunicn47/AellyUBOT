@@ -13,13 +13,13 @@
     <a href="https://GitHub.com/AellyOfficial">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a> <br>
-    <img src="https://img.shields.io/github/license/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/license/AellyOfficial/AellyUBOT?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/AellyOfficial/AellyUBOT?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/AellyOfficial/AellyUBOT?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-    <img src="https://img.shields.io/github/issues/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/issues/AellyOfficial/AellyUBOT?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/AellyOfficial/AellyUBOT?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/AellyOfficial/AellyUBOT?style=for-the-badge&logo=appveyor" alt="Stars">
 </p>
 
 <h3 align="center"> 
@@ -28,7 +28,7 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/WilliamButcherBot"> WilliamButcherBot </a> | 
+    <a href="https://t.me/AellyUBOT"> AellyUBOT </a> | 
     <a href="https://t.me/aellysupport"> WbbSupport </a>
 </p>
 
@@ -48,8 +48,8 @@
 </h2>
 
 ```console
-AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/WilliamButcherBot
-AellyOfficial@arch:~$ cd WilliamButcherBot
+AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/AellyUBOT
+AellyOfficial@arch:~$ cd AellyUBOT
 AellyOfficial@arch:~$ pip3 install -U -r requirements.txt
 AellyOfficial@arch:~$ cp sample_config.py config.py
 ```
@@ -71,8 +71,8 @@ AellyOfficial@arch:~$ python3 -m aelly
 </h3>
 
 ```console
-AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/WilliamButcherBot
-AellyOfficial@arch:~$ cd WilliamButcherBot
+AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/AellyUBOT
+AellyOfficial@arch:~$ cd AellyUBOT
 AellyOfficial@arch:~$ pip3 install pyrogram TgCrypto
 AellyOfficial@arch:~$ python3 str_gen.py
 ```
@@ -82,8 +82,8 @@ AellyOfficial@arch:~$ python3 str_gen.py
 </h1>
 
 ```console
-AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/WilliamButcherBot
-AellyOfficial@arch:~$ cd WilliamButcherBot
+AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/AellyUBOT
+AellyOfficial@arch:~$ cd AellyUBOT
 AellyOfficial@arch:~$ cp sample_config.env config.env
 ```
 

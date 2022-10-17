@@ -107,7 +107,7 @@ async def inline_help_func(__HELP__):
             title="Github Repo",
             description="Get Github Respository Of Bot.",
             input_message_content=InputTextMessageContent(
-                "https://github.com/AellyOfficial/WilliamButcherBot"
+                "https://github.com/AellyOfficial/AellyUBOT"
             ),
             thumb_url="https://hamker.me/gjc9fo3.png",
         ),
@@ -128,7 +128,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[William✨](https://github.com/AellyOfficial/WilliamButcherBot):**
+**[William✨](https://github.com/AellyOfficial/AellyUBOT):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
