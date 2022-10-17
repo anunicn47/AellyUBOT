@@ -10,16 +10,16 @@
     <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
-    <a href="https://GitHub.com/TheHamkerCat">
+    <a href="https://GitHub.com/AellyOfficial">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a> <br>
-    <img src="https://img.shields.io/github/license/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/license/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-    <img src="https://img.shields.io/github/issues/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/issues/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/AellyOfficial/WilliamButcherBot?style=for-the-badge&logo=appveyor" alt="Stars">
 </p>
 
 <h3 align="center"> 
@@ -48,10 +48,10 @@
 </h2>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/WilliamButcherBot
-thehamkercat@arch:~$ cd WilliamButcherBot
-thehamkercat@arch:~$ pip3 install -U -r requirements.txt
-thehamkercat@arch:~$ cp sample_config.py config.py
+AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/WilliamButcherBot
+AellyOfficial@arch:~$ cd WilliamButcherBot
+AellyOfficial@arch:~$ pip3 install -U -r requirements.txt
+AellyOfficial@arch:~$ cp sample_config.py config.py
 ```
  
 <h3 align="center"> 
@@ -63,7 +63,7 @@ thehamkercat@arch:~$ cp sample_config.py config.py
 </h2>
 
 ```console
-thehamkercat@arch:~$ python3 -m wbb
+AellyOfficial@arch:~$ python3 -m wbb
 ```
 
 <h3 align="center"> 
@@ -71,10 +71,10 @@ thehamkercat@arch:~$ python3 -m wbb
 </h3>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/WilliamButcherBot
-thehamkercat@arch:~$ cd WilliamButcherBot
-thehamkercat@arch:~$ pip3 install pyrogram TgCrypto
-thehamkercat@arch:~$ python3 str_gen.py
+AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/WilliamButcherBot
+AellyOfficial@arch:~$ cd WilliamButcherBot
+AellyOfficial@arch:~$ pip3 install pyrogram TgCrypto
+AellyOfficial@arch:~$ python3 str_gen.py
 ```
 
 <h1 align="center"> 
@@ -82,9 +82,9 @@ thehamkercat@arch:~$ python3 str_gen.py
 </h1>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/WilliamButcherBot
-thehamkercat@arch:~$ cd WilliamButcherBot
-thehamkercat@arch:~$ cp sample_config.env config.env
+AellyOfficial@arch:~$ git clone https://github.com/AellyOfficial/WilliamButcherBot
+AellyOfficial@arch:~$ cd WilliamButcherBot
+AellyOfficial@arch:~$ cp sample_config.env config.env
 ```
 
 <h3 align="center"> 
@@ -92,8 +92,8 @@ thehamkercat@arch:~$ cp sample_config.env config.env
 </h3>
 
 ```console
-thehamkercat@arch:~$ sudo docker build . -t wbb
-thehamkercat@arch:~$ sudo docker run wbb
+AellyOfficial@arch:~$ sudo docker build . -t wbb
+AellyOfficial@arch:~$ sudo docker run wbb
 ```
 
 <h2 align="center"> 

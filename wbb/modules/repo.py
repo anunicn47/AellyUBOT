@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021 TheHamkerCat
+Copyright (c) 2021 AellyOfficial
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -35,7 +35,7 @@ __HELP__ = "/repo - To Get My Github Repository Link " "And Support Group Link"
 @capture_err
 async def repo(_, message):
     users = await get(
-        "https://api.github.com/repos/thehamkercat/williambutcherbot/contributors"
+        "https://api.github.com/repos/AellyOfficial/williambutcherbot/contributors"
     )
     list_of_users = ""
     count = 1
@@ -45,7 +45,7 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Github](https://github.com/thehamkercat/WilliamButcherBot) | [Group](t.me/PatheticProgrammers)
+    text = f"""[Github](https://github.com/AellyOfficial/WilliamButcherBot) | [Group](t.me/PatheticProgrammers)
 ```----------------
 | Contributors |
 ----------------```

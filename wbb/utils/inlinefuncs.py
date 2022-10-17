@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021 TheHamkerCat
+Copyright (c) 2021 AellyOfficial
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -107,7 +107,7 @@ async def inline_help_func(__HELP__):
             title="Github Repo",
             description="Get Github Respository Of Bot.",
             input_message_content=InputTextMessageContent(
-                "https://github.com/thehamkercat/WilliamButcherBot"
+                "https://github.com/AellyOfficial/WilliamButcherBot"
             ),
             thumb_url="https://hamker.me/gjc9fo3.png",
         ),
@@ -128,7 +128,7 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[William✨](https://github.com/thehamkercat/WilliamButcherBot):**
+**[William✨](https://github.com/AellyOfficial/WilliamButcherBot):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`

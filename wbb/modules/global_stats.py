@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2021 TheHamkerCat
+Copyright (c) 2021 AellyOfficial
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -103,8 +103,8 @@ async def global_stats(_, message):
     karmas_chats_count = _karmas["chats_count"]
 
     # Contributors/Developers count and commits on github
-    url = "https://api.github.com/repos/thehamkercat/williambutcherbot/contributors"
-    rurl = "https://github.com/thehamkercat/williambutcherbot"
+    url = "https://api.github.com/repos/AellyOfficial/williambutcherbot/contributors"
+    rurl = "https://github.com/AellyOfficial/williambutcherbot"
     developers = await get(url)
     commits = 0
     for developer in developers:
