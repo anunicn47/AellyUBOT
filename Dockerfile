@@ -1,4 +1,4 @@
-FROM williambutcherbot/python:latest
+FROM aellyubot/python:latest
 
 WORKDIR /aelly
 RUN chmod 777 /aelly
