@@ -1,3 +1,4 @@
+"""
 MIT License
 
 Copyright (c) 2021 TheHamkerCat
@@ -19,3 +20,29 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+"""
+
+n = "\n"
+w = " "
+
+bold = lambda x: f"**{x}:** "
+bold_ul = lambda x: f"**--{x}:**-- "
+
+mono = lambda x: f"`{x}`{n}"
+
+
+def section(
+        title: str,
+        body: dict,
+        indent: int = 2,
+        underline: bool = False,
+) -> str:
+    text = (bold_ul(title) + n) if underline else bold(title) + n
+
+    for key, value in body.items():
+        text += (
+                indent * w
+                + bold(key)
+                + ((value[0] + n) if isinstance(value, list) else mono(value))
+        )
+    return text
