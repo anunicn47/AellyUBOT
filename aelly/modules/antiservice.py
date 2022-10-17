@@ -1,4 +1,4 @@
-# Written By [MaskedVirus | swatv3nub] for William and Ryūga
+# Written By [MaskedVirus | swatv3nub] for Aelly and Ryūga
 # Kang With Proper Credits
 
 from pyrogram import filters
