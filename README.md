@@ -36,6 +36,13 @@
    ⇝ Requirements ⇜
 </h2>
 
+<h1>
+    <p align="center">
+        <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/WilliamButcherBot">
+            <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+        </a>
+    </p>
+</h1>
 <p align="center">
     <a href="https://www.python.org/downloads/release/python-390/"> Python3.9 </a> |
     <a href="https://docs.pyrogram.org/intro/setup#api-keys"> Telegram API Key </a> |
