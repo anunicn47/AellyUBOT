@@ -141,13 +141,18 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-        f"Hey there! My name is {BOT_NAME}. I can manage your "
-        + "group with lots of useful features, feel free to "
-        + "add me to your group."
+        """
+────「 [𝔸𝕖𝕝𝕝𝕪](https://telegra.ph/file/4fc3947c4f32e3685ab8a.jpg) 」────
+**Hola!,**
+**I am Aelly an advance group management bot with some advanse features...**
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ Try The Help Buttons Below To Know My Abilities ××
+"""
 )
 
 keyboard = InlineKeyboardMarkup(
-    [
+[
         [
             InlineKeyboardButton(
                 text="Help ❓",
@@ -156,18 +161,15 @@ keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="Owner 💖",
                 url="https://t.me/an_unic_or_n47",
-            ),
-        ],
+                 ],
         [
             InlineKeyboardButton(
                 text="System Stats 💻",
                 callback_data="stats_callback",
-            ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/anu_pui"),
+                InlineKeyboardButton(text="Support 👨", url="t.me/anu_pui"),
         ],
     ]
 )
-
 
 @app.on_message(~filters.edited & filters.command("start"))
 async def start(_, message):
