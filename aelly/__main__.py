@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2022 AellyOfficial
+Copyright (c) 2021 TheHamkerCat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@ from uvloop import install
 from pyrogram import filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from aelly import (
+from wbb import (
     BOT_NAME,
     BOT_USERNAME,
     LOG_GROUP_ID,
@@ -39,11 +39,11 @@ from aelly import (
     app,
     log,
 )
-from aelly.modules import ALL_MODULES
-from aelly.modules.sudoers import bot_sys_stats
-from aelly.utils import paginate_modules
-from aelly.utils.constants import MARKDOWN
-from aelly.utils.dbfunctions import clean_restart_stage
+from wbb.modules import ALL_MODULES
+from wbb.modules.sudoers import bot_sys_stats
+from wbb.utils import paginate_modules
+from wbb.utils.constants import MARKDOWN
+from wbb.utils.dbfunctions import clean_restart_stage
 
 loop = asyncio.get_event_loop()
 
@@ -54,7 +54,7 @@ async def start_bot():
     global HELPABLE
 
     for module in ALL_MODULES:
-        imported_module = importlib.import_module("aelly.modules." + module)
+        imported_module = importlib.import_module("wbb.modules." + module)
         if (
                 hasattr(imported_module, "__MODULE__")
                 and imported_module.__MODULE__
@@ -77,7 +77,7 @@ async def start_bot():
             bot_modules += "|{:<15}".format(i)
         j += 1
     print("+===============================================================+")
-    print("|                             AELLY                             |")
+    print("|                              WBB                              |")
     print("+===============+===============+===============+===============+")
     print(bot_modules)
     print("+===============+===============+===============+===============+")
@@ -128,7 +128,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/anu_pui"
+                text="Support 👨", url="http://t.me/WBBSupport"
             ),
         ],
         [
@@ -140,8 +140,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
     ]
 )
 
-home_text_pm = (
-        """
+home_text_pm = ( """
 ────「 [𝔸𝕖𝕝𝕝𝕪](https://telegra.ph/file/4fc3947c4f32e3685ab8a.jpg) 」────
 **Hola!,**
 **I am Aelly an advance group management bot with some advanse features...**
@@ -149,10 +148,10 @@ home_text_pm = (
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
 """
-)
+               )
 
 keyboard = InlineKeyboardMarkup(
-[
+    [
         [
             InlineKeyboardButton(
                 text="Help ❓",
@@ -161,15 +160,18 @@ keyboard = InlineKeyboardMarkup(
             InlineKeyboardButton(
                 text="Owner 💖",
                 url="https://t.me/an_unic_or_n47",
-                 ],
+            ),
+        ],
         [
             InlineKeyboardButton(
                 text="System Stats 💻",
                 callback_data="stats_callback",
-                InlineKeyboardButton(text="Support 👨", url="t.me/anu_pui"),
+            ),
+            InlineKeyboardButton(text="Support 👨", url="t.me/anu_pui"),
         ],
     ]
 )
+
 
 @app.on_message(~filters.edited & filters.command("start"))
 async def start(_, message):
